@@ -123,7 +123,7 @@ public extension UIImage {
         
         /* if the underlying CGImage is oriented differently than the UIImage then swap the width and height of the scale size. This method assumes the size passed is a request on the UIImage's orientation.
         */
-        if imageOrientation == UIImageOrientation.left || imageOrientation == UIImageOrientation.right {
+        if imageOrientation == UIImage.Orientation.left || imageOrientation == UIImage.Orientation.right {
             
             scaleSize = CGSize(width: round(scaleSize.height), height: round(scaleSize.width))
         
@@ -185,7 +185,7 @@ public extension UIImage {
     
     - returns: A rectangle recalculated to orient with the source image.
     */
-    func transposeCropRect(_ cropRect:CGRect, inDimension dimension:CGSize, forOrientation orientation: UIImageOrientation) -> CGRect {
+    func transposeCropRect(_ cropRect:CGRect, inDimension dimension:CGSize, forOrientation orientation: UIImage.Orientation) -> CGRect {
         
         var transposedRect = cropRect
         
@@ -242,7 +242,7 @@ public extension UIImage {
      
      - returns: A UIImage cut from the image having the crop rect dimensions and origin.
      */
-    public func cropRectangle(_ cropRect: CGRect, inFrame frameSize: CGSize) -> UIImage {
+    func cropRectangle(_ cropRect: CGRect, inFrame frameSize: CGSize) -> UIImage {
         
         
         let rndFrameSize = CGSize(width: round(frameSize.width), height: round(frameSize.height))

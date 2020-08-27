@@ -45,7 +45,7 @@
 		221DF908398F335B0FD6029B9B5FBA83 /* MMSCropView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMSCropView-umbrella.h"; sourceTree = "<group>"; };
 		268FBA002811B5A4AE81EE09D036690A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4DE3781233DDE8B955AA7BD37C94CE /* Pods-MMSCropView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMSCropView_Tests-resources.sh"; sourceTree = "<group>"; };
-		45F1F0757D182F8971642ADF7C0A2203 /* Pods_MMSCropView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMSCropView_Example.framework; path = "Pods-MMSCropView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F1F0757D182F8971642ADF7C0A2203 /* Pods_MMSCropView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMSCropView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E2F21B83EB29ADE7DFB1ACC45FC42D /* DragRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragRecognizer.swift; path = Pod/Classes/DragRecognizer.swift; sourceTree = "<group>"; };
 		4CE439E1E6540AF351C302CF0F16A802 /* UIImage+Cropping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Cropping.swift"; path = "Pod/Classes/UIImage+Cropping.swift"; sourceTree = "<group>"; };
 		4D0212ECABBD0785EB8C6095292F9EDB /* Pods-MMSCropView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMSCropView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -55,22 +55,22 @@
 		66C1A699A90D9833697D4022DBB64703 /* Pods-MMSCropView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMSCropView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		680D80885DDF4DAE9B1A1B44D4CF930F /* Pods-MMSCropView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMSCropView_Tests-dummy.m"; sourceTree = "<group>"; };
 		68C5D5FE757630544AB6508DCC23BA37 /* Pods-MMSCropView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMSCropView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		71BF851245472BC17B6599911698FEFD /* Pods_MMSCropView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMSCropView_Tests.framework; path = "Pods-MMSCropView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BF851245472BC17B6599911698FEFD /* Pods_MMSCropView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMSCropView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		729270AEFDA33E2FEF030EDDFC044BA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		760DA7507EA77A4A47A2E59F7CC5D332 /* Pods-MMSCropView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMSCropView_Example-resources.sh"; sourceTree = "<group>"; };
 		813615BF7DE45B49C2BA3CE48BD03270 /* MMSCropView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMSCropView-dummy.m"; sourceTree = "<group>"; };
-		86EC549DCA80368115EFB290B4087E8F /* MMSCropView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMSCropView.framework; path = MMSCropView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EC549DCA80368115EFB290B4087E8F /* MMSCropView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMSCropView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8984704F3D4A4CB6461F33CB56CCE3B6 /* Pods-MMSCropView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMSCropView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8BB5D8E3B6E33A1C4DD12F4D84C40014 /* MMSCropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMSCropView.swift; path = Pod/Classes/MMSCropView.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C4A91F50BC4BEAE7C0BF789C6573857 /* Pods-MMSCropView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMSCropView_Example-umbrella.h"; sourceTree = "<group>"; };
 		A21DBDC40BA5E9E7E9BD08A036C712AE /* Pods-MMSCropView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMSCropView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B8C5ACE7EDA67FBC73543CBBD0B6CE9E /* Pods-MMSCropView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MMSCropView_Example.modulemap"; sourceTree = "<group>"; };
+		B8C5ACE7EDA67FBC73543CBBD0B6CE9E /* Pods-MMSCropView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMSCropView_Example.modulemap"; sourceTree = "<group>"; };
 		C91547870EF2BA261F1BD73AD836C7A3 /* Pods-MMSCropView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMSCropView_Example-dummy.m"; sourceTree = "<group>"; };
-		D48C8B19D4D4DED4085084B31F6C21FB /* MMSCropView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MMSCropView.modulemap; sourceTree = "<group>"; };
+		D48C8B19D4D4DED4085084B31F6C21FB /* MMSCropView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMSCropView.modulemap; sourceTree = "<group>"; };
 		D4BF086F89C1B92514471F5BD6E25F77 /* Pods-MMSCropView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMSCropView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D509F3D1586FA64795C031059D61F0A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8188BC38F048AC5DF7AF7608B75F427 /* Pods-MMSCropView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MMSCropView_Tests.modulemap"; sourceTree = "<group>"; };
+		E8188BC38F048AC5DF7AF7608B75F427 /* Pods-MMSCropView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMSCropView_Tests.modulemap"; sourceTree = "<group>"; };
 		EAD91485CF43763B447331F86F0B091D /* Pods-MMSCropView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMSCropView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F9F67EE5EE947649019F797836716DE2 /* Pods-MMSCropView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMSCropView_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -316,6 +316,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -527,11 +528,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -560,7 +562,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -616,13 +618,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -686,7 +689,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

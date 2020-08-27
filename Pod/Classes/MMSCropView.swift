@@ -123,7 +123,7 @@ import UIKit
         
         cropView.addGestureRecognizer(swallowGesture)
         
-        maskLayer.fillRule = kCAFillRuleEvenOdd
+        maskLayer.fillRule = CAShapeLayerFillRule.evenOdd
         
         maskLayer.fillColor = maskColor.cgColor
         
@@ -248,7 +248,7 @@ import UIKit
     */
     @IBAction func moveRectangle(_ gesture:UIPanGestureRecognizer) {
         
-        if gesture.state == UIGestureRecognizerState.began {
+        if gesture.state == UIGestureRecognizer.State.began {
             
             /*  save the crop view frame's origin to compute the changing position as the finger glides around the screen.  Also, save the first touch point compute the amount to change the frames orign.
             */
@@ -337,7 +337,7 @@ import UIKit
     
         var cropRect = CGRect.zero
     
-        if gesture.state == UIGestureRecognizerState.began {
+        if gesture.state == UIGestureRecognizer.State.began {
             
             /* set the origin for the remainder of the pan gesture to the first touchpoint.
             */

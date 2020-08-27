@@ -43,7 +43,7 @@ class DragRecognizer:  UIPanGestureRecognizer {
                 
         for touch in touches {
             
-            if touch.phase == UITouchPhase.began {
+            if touch.phase == UITouch.Phase.began {
                 
                 origin = touch.location(in: view)
                 break
